@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus and Train Booking</title>
+    <link rel="stylesheet" href="website2.css">
+</head>
+<body>
+
+    <header>
+        <h1>Travel Easy</h1>
+        <p>Bus and Train Booking Website</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#bus">Bus Booking</a>
+        <a href="#train">Train Booking</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <h2>Book Your Journey</h2>
+
+    <div class="container">
+
+        <div class="booking" id="bus">
+            <h2>Bus Booking</h2>
+
+            <form>
+                <label>Passenger Name:</label>
+                <input type="text" placeholder="Enter your name">
+
+                <label>From:</label>
+                <input type="text" placeholder="Starting place">
+
+                <label>To:</label>
+                <input type="text" placeholder="Destination">
+
+                <label>Journey Date:</label>
+                <input type="date">
+
+                <label>Passengers:</label>
+                <input type="number" min="1" placeholder="Number of passengers">
+
+                <button type="button">Book Bus</button>
+            </form>
+        </div>
+
+        <div class="booking" id="train">
+            <h2>Train Booking</h2>
+
+            <form>
+                <label>Passenger Name:</label>
+                <input type="text" placeholder="Enter your name">
+
+                <label>From:</label>
+                <input type="text" placeholder="Starting station">
+
+                <label>To:</label>
+                <input type="text" placeholder="Destination station">
+
+                <label>Journey Date:</label>
+                <input type="date">
+
+                <label>Passengers:</label>
+                <input type="number" min="1" placeholder="Number of passengers">
+
+                <button type="button">Book Train</button>
+            </form>
+        </div>
+
+    </div>
+
+    <footer id="contact">
+        <p>Contact: travel@gmail.com</p>
+        <p>© 2026 Travel Easy</p>
+    </footer>
+
+</body>
+</html>

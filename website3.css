@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #fff8f0;
+    text-align: center;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    background-color: black;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+h2 {
+    color: brown;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.food {
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.food img {
+    width: 100%;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
